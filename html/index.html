@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseVOP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="slide-number second-slide">II</div>
+    <div class="slide-number third-slide">III</div>
+    <div class="slide-number fourth-slide">IV</div>
+    <div class="slide-number fifth-slide">V</div>
+    <div class="page1">
+        <div class="in-page1">
+            <div class="in-page1__topbar">
+                <div class="in-page1__topbar__logo">
+                    <span class="in-page1__topbar__logo__text1">HouseVOP</span>
+                    <span class="in-page1__topbar__logo__text2">RESIDENTIAL COMPLEX</span>
+                </div>
+                <div class="in-page1__topbar__navbar">
+                    <span class="in-page1__topbar__navbar__block in-page1__topbar__navbar__block1">About the complex</span>
+                    <span class="in-page1__topbar__navbar__block">District</span>
+                    <span class="in-page1__topbar__navbar__block">Apartments catalog</span>
+                    <span class="in-page1__topbar__navbar__block">Location</span>
+                    <span class="in-page1__topbar__navbar__block">Contact</span>
+                </div>
+                <div class="in-page1__topbar__btn" id="in-page__topbar__btn">
+                    <div class="in-page1__topbar__btn__line line1"></div>
+                    <div class="in-page1__topbar__btn__line line2"></div>
+                    <div class="in-page1__topbar__btn__line line3"></div>
+                </div>
+            </div>
+            <div class="in-page1__main">
+                <span class="in-page1__main__primary-text">A residential complex<br />in the historic center</span>
+                <img src="../imgs/mouse.svg" class="in-page1__main__mouse">
+                <div class="in-page1__main__text-block">
+                    <span class="in-page1__main__text-block__text">
+                        <img src="../imgs/geo.svg" class="in-page1__main__text-block__icon">
+                        100 Bergen Ave, Jersey City
+                    </span>
+                    <span class="in-page1__main__text-block__text">
+                        <img src="../imgs/phone.svg" class="in-page1__main__text-block__icon">
+                        (410) 451-3311
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonials">
+        <div class="testimonials__block">
+            <img src="../imgs/bench.svg" class="testimonials__block__icon">
+            <span class="testimonials__block__text">Near historical<br />parks and squares.</span>
+        </div>
+        <div class="testimonials__block">
+            <img src="../imgs/building.svg" class="testimonials__block__icon">
+            <span class="testimonials__block__text">Fully<br />furnished.</span>
+        </div>
+        <div class="testimonials__block">
+            <img src="../imgs/fountain.svg" class="testimonials__block__icon">
+            <span class="testimonials__block__text">10 fountains<br />on the territory</span>
+        </div>
+        <div class="testimonials__block">
+            <img src="../imgs/bicycle.svg" class="testimonials__block__icon">
+            <span class="testimonials__block__text">6 km<br />walkways</span>
+        </div>
+    </div>
+    <div class="apartments">
+        <div class="apartments__text">Our apartments</div>
+        <div class="apartments__blocks">
+            <div class="apartments__blocks__block" style="background-image: url('../imgs/loft1.png')">
+                <span class="apartments__blocks__block__text">Loft — 3 floors</span>
+            </div>
+            <div class="apartments__blocks__block" style="background-image: url('../imgs/loft2.png')">
+                <span class="apartments__blocks__block__text">Loft — 2 floors</span>
+            </div>
+            <div class="apartments__blocks__block" style="background-image: url('../imgs/loft1.png')">
+                <span class="apartments__blocks__block__text">Loft — 3 floors</span>
+            </div>
+            <div class="apartments__blocks__block" style="background-image: url('../imgs/loft2.png')">
+                <span class="apartments__blocks__block__text">Loft — 2 floors</span>
+            </div>
+        </div>
+    </div>
+    <div class="cta">
+        <div class="cta__block1">
+            <span class="cta__block1__text1">Would you like to see it?</span>
+            <span class="cta__block1__text2">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</span>
+        </div>
+        <div class="cta__iframe-box">
+            <iframe src="form.html"></iframe>
+        </div>
+    </div>
+    <div class="video">
+        <video class="video-js vjs-default-skin"
+        id="my-video"
+        class="video-js"
+        controls
+        style="object-fit: fill;"
+        preload="auto"
+        poster="../imgs/video-poster.png"
+        data-setup="{}"
+    >
+        <source src="../videos/video.mp4" type="video/mp4" />
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+        </video>
+    </div>
+    <div class="maps">
+        <span class="maps__text">District on the map</span>
+        <div class="maps__iframe-box">
+            <iframe class="maps__iframe-box__iframe" loading="lazy" allowfullscreen
+            src="https://maps.google.com/maps?hl=en&amp;q=%C4%B0ikaneir+(Mumma's%20Bakery)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"></iframe>
+        </div>
+    </div>    
+    <div class="cta2">
+        <span class="cta2__text">Any questions?</span>
+        <div class="cta2__iframe-box">
+            <iframe src="form2.html"></iframe>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="in-footer">
+            <div class="in-page1__topbar__logo logo2">
+                <span class="in-page1__topbar__logo__text1">HouseVOP</span>
+                <span class="in-page1__topbar__logo__text2">RESIDENTIAL COMPLEX</span>
+            </div>
+            <div class="in-footer__col col1">
+                <span class="in-footer__col__block">About the complex</span>
+                <span class="in-footer__col__block">District</span>
+                <span class="in-footer__col__block">Apartments catalog</span>
+                <span class="in-footer__col__block">Location</span>
+                <span class="in-footer__col__block">Contact</span>
+            </div>
+            <div class="in-footer__col col2">
+                <span class="in-footer__col__block">About the complex</span>
+                <span class="in-footer__col__block">District</span>
+                <span class="in-footer__col__block">Apartments catalog</span>
+                <span class="in-footer__col__block">Location</span>
+                <span class="in-footer__col__block">Contact</span>
+            </div>
+            <div class="in-footer__col">
+                <span class="in-footer__col__block">Address: 100 Bergen Ave, Jersey City</span>
+                <span class="in-footer__col__block">Phone number: (410) 451-3311</span>
+                <span class="in-footer__col__block">Sales Department: 10:00 - 20:00</span>
+                <span class="in-footer__col__block">E-mail: <strong style="color:#D4C17F">vip@housevip.com</strong></span>
+                <div class="in-footer__col__socials">
+                    <img src="../imgs/YT.svg">
+                    <img src="../imgs/twitter.svg">
+                    <img src="../imgs/FB.svg">
+                    <img src="../imgs/inst.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../script/script.js"></script>
+</body>
+</html>
